@@ -1,0 +1,136 @@
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color:#77bbff;
+  font-family: "Calibri"
+}
+.header{
+	padding-top:10px;
+  font-family: "Calibri";
+  font-size:35px;
+  text-align:center;
+  padding: 15px 22px;
+    color: #808080;
+}
+
+.topnav a {
+  padding-left:1000px;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #0080ff;
+  color: #c0c0c0;
+}
+
+.topnav a.active {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #77bbff;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    width: justify;
+    top:50%; 
+    padding: 15px 32px;
+    text-align: center;
+    align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: grey; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.popup-content {
+    background-color: #8080ff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: grey;
+    float: right;
+    font-size: 28px;
+    font-weight: italic;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*TextArea*/
+.textarea {
+    margin: 20px; 
+    height: 150px; 
+    width: 400px; 
+    padding: 10px 42px 58px 20px;
+    box-shadow: 0 0 10px #719ECE;
+    z-index: auto; 
+    position: relative; 
+    line-height: BOLD; 
+    font-size: 13.3333px; 
+    transition: none; 
+    background: transparent !important;
+    border: 1px;
+    border-color:#0080ff;
+    align:center;
+}
+.input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000040;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
